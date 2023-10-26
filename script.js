@@ -6,5 +6,5 @@ let p = new Promise((resolve, reject) => {
 })
 
 p.then((data) => {
-	output.innerText = 'data';
+	output.innerText = data;
 })
